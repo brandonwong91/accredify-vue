@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import GlobalNavBar from './components/GlobalNavBar.vue'
 import UtilityBar from './components/UtilityBar.vue'
+import HomeView from './views/HomeView.vue'
 </script>
 
 <template>
@@ -8,6 +9,7 @@ import UtilityBar from './components/UtilityBar.vue'
     <GlobalNavBar />
     <div class="w-full bg-white rounded-l-2xl">
       <UtilityBar />
+      <HomeView />
     </div>
   </main>
 </template>
