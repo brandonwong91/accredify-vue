@@ -1,10 +1,14 @@
 <script setup lang="ts">
-import SideNavBar from './components/SideNavBar.vue'
+import GlobalNavBar from './components/GlobalNavBar.vue'
+import UtilityBar from './components/UtilityBar.vue'
 </script>
 
 <template>
-  <main class="bg-[#151F32]">
-    <SideNavBar />
+  <main class="bg-[#151F32] flex">
+    <GlobalNavBar />
+    <div class="w-full bg-white rounded-l-2xl">
+      <UtilityBar />
+    </div>
   </main>
 </template>
 
