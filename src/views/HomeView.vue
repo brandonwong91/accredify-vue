@@ -11,7 +11,7 @@ import RecentDocumentsPanel from '../components/RecentDocumentsPanel.vue'
       <p class="text-[#5B6270]">
         Manage your documents issued by SMU Academy or track your career goal.
       </p>
-      <div class="flex mt-14">
+      <div class="flex mt-14 gap-x-8">
         <CareerGoalPanel />
         <RecentDocumentsPanel />
       </div>
