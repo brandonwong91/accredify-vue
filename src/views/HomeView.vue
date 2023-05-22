@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
 import CareerGoalPanel from '../components/CareerGoalPanel.vue'
 import RecentDocumentsPanel from '../components/RecentDocumentsPanel.vue'
 </script>
