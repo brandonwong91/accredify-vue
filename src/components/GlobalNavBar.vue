@@ -46,10 +46,10 @@ export default {
       <a href="/" :class="[navItemsClass, activeClass]">
         <IconHome />
       </a>
-      <a href="/note" :class="[navItemsClass]">
+      <a href="/?user=1" :class="[navItemsClass]">
         <IconNote />
       </a>
-      <a :class="[navItemsClass]">
+      <a href="/?user=2" :class="[navItemsClass]">
         <IconLightBulb />
       </a>
       <div :class="[navItemsClass]">
